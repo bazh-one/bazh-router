@@ -1,6 +1,6 @@
 {
   "name": "@bazh-one/bazh-router",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Lightweight TS router + layout/page primitives (no framework)",
   "license": "MIT",
   "author": "Artem Bazhenov",

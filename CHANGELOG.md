@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/bazh-one/bazh-router/compare/v2.0.0...v2.0.1) (2026-02-18)
+
+### Bug Fixes
+
+* package-lock добавлен ([59bef6e](https://github.com/bazh-one/bazh-router/commit/59bef6e08af258896d5f004f55de2c66775dada3))
+* Проект перенесен в оргу ([4034a67](https://github.com/bazh-one/bazh-router/commit/4034a67f0ef53310c74b5fcf353b3f7e6b0dbf8e))
+
 ## [2.0.0](https://github.com/bazh-one/bazh-router/compare/v1.1.1...v2.0.0) (2025-12-18)
 
 ### ⚠ BREAKING CHANGES
