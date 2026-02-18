@@ -11,7 +11,7 @@ export default defineConfig({
     build: { target: "ESNext" },
     resolve: {
         alias: {
-            "@icrusai/ts-router": path.resolve(__dirname, "../dist/index.js"),
+            "@bazh-one/bazh-router": path.resolve(__dirname, "../dist/index.js"),
             "@": path.resolve(__dirname, "../src"),
         },
     },

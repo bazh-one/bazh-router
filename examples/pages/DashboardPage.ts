@@ -1,4 +1,4 @@
-import { Page } from "@icrusai/ts-router";
+import { Page } from "@bazh-one/bazh-router";
 import ShellLayout from "../layouts/ShellLayout";
 
 export default class DashboardPage extends Page {

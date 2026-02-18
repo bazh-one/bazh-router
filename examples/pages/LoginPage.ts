@@ -1,4 +1,4 @@
-import { Page, reactive, withFeatures, TemplateFeature } from "@icrusai/ts-router";
+import { Page, reactive, withFeatures, TemplateFeature } from "@bazh-one/bazh-router";
 
 /**
  * Пример страницы авторизации.

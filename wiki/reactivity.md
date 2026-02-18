@@ -12,7 +12,7 @@
 ### Пример
 
 ```ts
-import { signal, computed, effect } from "@icrusai/ts-router/dist/utils/reactive";
+import { signal, computed, effect } from "@bazh-one/bazh-router/dist/utils/reactive";
 
 const a = signal(1);
 const b = signal(2);
@@ -27,7 +27,7 @@ a.set(5); // лог: 7
 Находится в `src/utils/decorators.ts`, использует стандартные декораторы TS ≥5.
 
 ```ts
-import { reactive } from "@icrusai/ts-router";
+import { reactive } from "@bazh-one/bazh-router";
 
 class Counter {
     @reactive count = 0;

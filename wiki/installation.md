@@ -3,21 +3,21 @@
 ## Установка
 
 ```bash
-npm install @icrusai/ts-router
+npm install @bazh-one/bazh-router
 ```
 
 > Пакет размещён в GitHub Packages. В `.npmrc` понадобится:
 >
 > ```
-> @icrusai:registry=https://npm.pkg.github.com
+> @bazh-one:registry=https://npm.pkg.github.com
 > //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
 > ```
 
 ## Быстрый старт
 
 ```ts
-import { Router } from "@icrusai/ts-router";
-import Page from "@icrusai/ts-router/dist/components/Page";
+import { Router } from "@bazh-one/bazh-router";
+import Page from "@bazh-one/bazh-router/dist/components/Page";
 
 class HomePage extends Page {
     created() {

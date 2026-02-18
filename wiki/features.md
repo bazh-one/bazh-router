@@ -15,7 +15,7 @@
 Пример:
 
 ```ts
-import { Layout, withFeatures, ChildrenFeature } from "@icrusai/ts-router";
+import { Layout, withFeatures, ChildrenFeature } from "@bazh-one/bazh-router";
 
 class Parent extends withFeatures(Layout, ChildrenFeature) {
     protected renderStructure() {

@@ -1,4 +1,4 @@
-import { Page } from "@icrusai/ts-router";
+import { Page } from "@bazh-one/bazh-router";
 
 export default class NotFoundPage extends Page {
     protected created() {

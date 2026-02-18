@@ -1,4 +1,4 @@
-# **ts-router**
+# **bazh-router**
 
 Лёгкий **SPA-роутер на TypeScript** без зависимостей. Подходит для небольших проектов, где нужен контроль навигации, middleware и гибкая работа со страницами. Детальная документация вынесена в wiki (ссылки ниже).
 
@@ -29,14 +29,14 @@
 Пакет публикуется в **GitHub Packages**. Убедитесь, что в вашем проекте настроен .npmrc:
 
 ```bash
-@icrusai:registry=https://npm.pkg.github.com
+@bazh-one:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
 ```
 
 Затем установите:
 
 ```bash
-npm install @icrusai/ts-router
+npm install @bazh-one/bazh-router
 ```
 
 ---
@@ -46,7 +46,7 @@ npm install @icrusai/ts-router
 ### **1) Создаём страницу**
 
 ```ts
-import Page from "ts-router/Page";
+import Page from "bazh-router/Page";
 
 export default class HomePage extends Page {
     created() {
@@ -64,7 +64,7 @@ export default class HomePage extends Page {
 ### **2) Настраиваем роутер**
 
 ```ts
-import { Router } from "ts-router";
+import { Router } from "bazh-router";
 import HomePage from "./pages/HomePage";
 
 const app = document.getElementById("app")!;

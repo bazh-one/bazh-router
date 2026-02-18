@@ -8,7 +8,7 @@
 Пример:
 
 ```ts
-import Page from "@icrusai/ts-router/dist/components/Page";
+import Page from "@bazh-one/bazh-router/dist/components/Page";
 
 export default class UserPage extends Page {
     created() {
@@ -38,7 +38,7 @@ export default class UserPage extends Page {
 ### Пример базового Layout
 
 ```ts
-import Layout from "@icrusai/ts-router/dist/components/Layout";
+import Layout from "@bazh-one/bazh-router/dist/components/Layout";
 
 export default class CardLayout extends Layout {
     protected renderStructure() {

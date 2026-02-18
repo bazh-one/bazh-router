@@ -1,4 +1,4 @@
-import { Layout, SlotsFeature, withFeatures } from "@icrusai/ts-router";
+import { Layout, SlotsFeature, withFeatures } from "@bazh-one/bazh-router";
 import shell from "./shell.html?raw";
 
 export default class ShellLayout extends withFeatures(

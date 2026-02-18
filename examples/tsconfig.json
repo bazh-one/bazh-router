@@ -3,7 +3,7 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "@icrusai/ts-router": ["../dist/index.d.ts"]
+            "@bazh-one/bazh-router": ["../dist/index.d.ts"]
         }
     },
     "include": ["./**/*.ts", "./**/*.tsx"]

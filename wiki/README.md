@@ -1,4 +1,4 @@
-# ts-router — Wiki
+# bazh-router — Wiki
 
 Навигация по всем возможностям:
 

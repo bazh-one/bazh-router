@@ -1,4 +1,4 @@
-import { Router } from "@icrusai/ts-router";
+import { Router } from "@bazh-one/bazh-router";
 import NotFoundPage from "./pages/NotFoundPage";
 
 // Гвард авторизации

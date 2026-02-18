@@ -3,7 +3,7 @@
 ## 1) Защищённые маршруты (auth guard)
 
 ```ts
-import { Router, NavigationGuard } from "@icrusai/ts-router";
+import { Router, NavigationGuard } from "@bazh-one/bazh-router";
 
 const requireAuth: NavigationGuard = async (to, from) => {
     if (!localStorage.getItem("token")) {
