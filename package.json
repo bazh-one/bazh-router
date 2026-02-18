@@ -1,17 +1,17 @@
 {
-  "name": "@icrusai/ts-router",
+  "name": "@bazh-one/bazh-router",
   "version": "2.0.0",
   "description": "Lightweight TS router + layout/page primitives (no framework)",
   "license": "MIT",
   "author": "Artem Bazhenov",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IcrusaI/ts-router.git"
+    "url": "git+https://github.com/bazh-one/bazh-router.git"
   },
   "bugs": {
-    "url": "https://github.com/IcrusaI/ts-router/issues"
+    "url": "https://github.com/bazh-one/bazh-router/issues"
   },
-  "homepage": "https://github.com/IcrusaI/ts-router#readme",
+  "homepage": "https://github.com/bazh-one/bazh-router#readme",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
